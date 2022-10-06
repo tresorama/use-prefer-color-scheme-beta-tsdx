@@ -1,7 +1,6 @@
 import * as React from 'react'
 
 export const usePrefersColorScheme = () => {
-  // 1. define state and ref
   const [preferredColorSchema, setPreferredColorSchema] = React.useState<'dark' | 'light' | 'no-preference'>('no-preference')
 
   // On first render:
